@@ -79,6 +79,7 @@ publishButton.addEventListener('click', () => {
       contentInput.value = '';
       const modal = bootstrap.Modal.getInstance(document.querySelector('#exampleModal'));
       modal.hide();
+       postElement.remove();
     });
   });
 
